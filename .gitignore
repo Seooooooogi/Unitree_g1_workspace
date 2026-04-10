@@ -45,6 +45,11 @@ Thumbs.db
 *.bak
 *.orig
 
+# Project-internal docs (not for public repo)
+memory/
+docs/
+CLAUDE.md
+
 # External packages (clone separately — see README Setup)
 external/unitree_mujoco/
 external/cyclonedds/
