@@ -1,0 +1,56 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+envs/
+
+# Build artifacts
+build/
+dist/
+*.so
+*.o
+*.a
+
+# C++ build
+unitree_mujoco/simulate/build/
+unitree_mujoco/example/cpp/build/
+
+# Outputs & logs
+outputs/
+*.log
+*.jsonl
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.orig
+
+# External packages (clone separately — see README Setup)
+external/unitree_mujoco/
+external/cyclonedds/
+external/third_party/
+envs/
+
+# colcon artifacts
+install/
+log/

@@ -1,0 +1,59 @@
+# G1 29DOF joint names ordered by DDS motor index (mode=0)
+# Source: unitree_mujoco/unitree_robots/g1/g1_joint_index_dds.md
+G1_29DOF_JOINT_NAMES = [
+    'L_LEG_HIP_PITCH',    # 0
+    'L_LEG_HIP_ROLL',     # 1
+    'L_LEG_HIP_YAW',      # 2
+    'L_LEG_KNEE',         # 3
+    'L_LEG_ANKLE_PITCH',  # 4
+    'L_LEG_ANKLE_ROLL',   # 5
+    'R_LEG_HIP_PITCH',    # 6
+    'R_LEG_HIP_ROLL',     # 7
+    'R_LEG_HIP_YAW',      # 8
+    'R_LEG_KNEE',         # 9
+    'R_LEG_ANKLE_PITCH',  # 10
+    'R_LEG_ANKLE_ROLL',   # 11
+    'WAIST_YAW',          # 12
+    'WAIST_ROLL',         # 13
+    'WAIST_PITCH',        # 14
+    'L_SHOULDER_PITCH',   # 15
+    'L_SHOULDER_ROLL',    # 16
+    'L_SHOULDER_YAW',     # 17
+    'L_ELBOW',            # 18
+    'L_WRIST_ROLL',       # 19
+    'L_WRIST_PITCH',      # 20
+    'L_WRIST_YAW',        # 21
+    'R_SHOULDER_PITCH',   # 22
+    'R_SHOULDER_ROLL',    # 23
+    'R_SHOULDER_YAW',     # 24
+    'R_ELBOW',            # 25
+    'R_WRIST_ROLL',       # 26
+    'R_WRIST_PITCH',      # 27
+    'R_WRIST_YAW',        # 28
+]
+
+G1_23DOF_JOINT_NAMES = [
+    'L_LEG_HIP_PITCH',    # 0
+    'L_LEG_HIP_ROLL',     # 1
+    'L_LEG_HIP_YAW',      # 2
+    'L_LEG_KNEE',         # 3
+    'L_LEG_ANKLE_PITCH',  # 4
+    'L_LEG_ANKLE_ROLL',   # 5
+    'R_LEG_HIP_PITCH',    # 6
+    'R_LEG_HIP_ROLL',     # 7
+    'R_LEG_HIP_YAW',      # 8
+    'R_LEG_KNEE',         # 9
+    'R_LEG_ANKLE_PITCH',  # 10
+    'R_LEG_ANKLE_ROLL',   # 11
+    'TORSO',              # 12
+    'L_SHOULDER_PITCH',   # 13
+    'L_SHOULDER_ROLL',    # 14
+    'L_SHOULDER_YAW',     # 15
+    'L_ELBOW_PITCH',      # 16
+    'L_ELBOW_ROLL',       # 17
+    'R_SHOULDER_PITCH',   # 18
+    'R_SHOULDER_ROLL',    # 19
+    'R_SHOULDER_YAW',     # 20
+    'R_ELBOW_PITCH',      # 21
+    'R_ELBOW_ROLL',       # 22
+]
